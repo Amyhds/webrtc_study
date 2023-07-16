@@ -1,5 +1,5 @@
 //connecting to our signaling server 
-var conn = new WebSocket('ws://70.12.247.85:8080/socket');
+var conn = new WebSocket('ws://localhost:8080/socket');
 
 conn.onopen = function() {
     console.log("Connected to the signaling server");
